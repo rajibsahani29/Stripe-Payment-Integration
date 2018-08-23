@@ -24,7 +24,7 @@ After that for checking payment status we need to send request to create a charg
 
 In <b>objStripeCharge</b> object you receive all information about the payment.
 
-![Stripe screen](https://github.com/rajibsahani29/Stripe-Payment-Integration/blob/master/5.png?raw=true "Stripe screen")
+![Stripe screen](https://github.com/rajibsahani29/Stripe-Payment-Integration/blob/master/9.png?raw=true "Stripe screen")
 
 <b>Webhook</b>
 
