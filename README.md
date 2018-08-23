@@ -23,3 +23,19 @@ After that for checking payment status we need to send request to create a charg
 
 
 In <b>objStripeCharge</b> object you receive all information about the payment.
+
+![Stripe screen](https://github.com/rajibsahani29/Stripe-Payment-Integration/blob/master/5.png?raw=true "Stripe screen")
+
+<b>Webhook</b>
+
+Stript also provide webhook, so for implement webhook, we have to send the webhook url to support so they will add this URL to our account. We not add this URL by self.
+If we set URL in webhook, server execute this page on every request and send response to this page so we need to convert response to json and implement payment code.
+
+![Stripe screen](https://github.com/rajibsahani29/Stripe-Payment-Integration/blob/master/6.png?raw=true "Stripe screen")
+
+For getting payment status we use code like
+
+![Stripe screen](https://github.com/rajibsahani29/Stripe-Payment-Integration/blob/master/7.png?raw=true "Stripe screen")
+![Stripe screen](https://github.com/rajibsahani29/Stripe-Payment-Integration/blob/master/8.png?raw=true "Stripe screen")
+
+
